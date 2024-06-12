@@ -1,5 +1,5 @@
 * {
-  outline: 1px solid red;
+  outline: 2px solid red;
 }
 
 body {
@@ -94,9 +94,9 @@ a {
   justify-content: center;
   align-items: center;
   border: 1px solid black;
-  width: 500px;
+  width: 800px;
+  height: 200px;
   background-color: grey;
-  padding: 100px;
   color: white;
 }
 
@@ -122,18 +122,19 @@ a {
   display: flex;
   padding: 0px 0px 48px 0px;
   flex-wrap: wrap;
+  gap: 48px;
 }
 
 .info-box {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 200px;
+  max-width: 100px;
   text-align: center;
 }
 
 img {
-  border: none;
+  border: 3px solid blue;
   border-radius: 8px;
   height: 100px;
   width: 100px;
@@ -142,11 +143,61 @@ img {
 .quote-section {
   display: flex;
   background-color: #E5E7EB;
-  height: 144px;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.main-quote {
+  font-size: 36px;
+  font-weight:300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-attribution {
+  text-align: right;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .cta {
   display: flex;
   background-color: #d3d3d3;
-  height: 144px;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-color: #3882F6;
+  border-radius: 8px;
+  width: 900px;
+  color: white;
+}
+
+.cta-title {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.cta-subtitle {
+  font-weight: 300;
+}
+
+.cta-title, .cta-subtitle {
+  width: 500px;
+}
+
+.cta-signup {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border: 2px solid #F9FAF8;
+  border-radius: 8px;
+  width: 100px;
+  padding: 8px;
+  font-weight: 700;
 }
