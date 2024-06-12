@@ -1,6 +1,6 @@
-* {
+/* * {
   outline: 2px solid red;
-}
+} */
 
 body {
   font-family: Helvetica, Arial, sans-serif;
@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 16px;
+  padding: 0px 200px;
 }
 
 .header, .footer {
@@ -87,6 +87,7 @@ a {
   width: 100px;
   padding: 8px;
   font-weight: 700;
+  font-size: 14px;
 }
 
 .greeting-image {
@@ -163,7 +164,7 @@ img {
 
 .cta {
   display: flex;
-  background-color: #d3d3d3;
+  background-color: white;
   justify-content: center;
   align-items: center;
   padding: 100px;
@@ -171,25 +172,26 @@ img {
 
 .cta-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding: 50px;
   background-color: #3882F6;
   border-radius: 8px;
   width: 900px;
   color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
 }
 
 .cta-title {
   font-weight: 700;
   font-size: 24px;
+  width: 600px;
 }
 
-.cta-subtitle {
+.cta-container .cta-subtitle {
   font-weight: 300;
-}
-
-.cta-title, .cta-subtitle {
-  width: 500px;
+  font-size: 20px;
 }
 
 .cta-signup {
@@ -200,4 +202,5 @@ img {
   width: 100px;
   padding: 8px;
   font-weight: 700;
+  font-size: 14px;
 }
