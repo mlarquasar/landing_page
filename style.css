@@ -54,19 +54,20 @@ a {
   justify-content: center;
   align-items: center;
   padding: 50px 200px;
+  gap: 100px;
 }
 
 .greeting {
   display: flex;
   flex-direction: column;
-  
 }
 
 #main-title {
   font-size: 48px;
   font-weight: 800;
   color: #F9FAF8;
-
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #subtitle {
@@ -74,13 +75,24 @@ a {
   color: #E5E7EB;
 }
 
+.welcome-signup {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border: none;
+  border-radius: 8px;
+  width: 100px;
+  padding: 8px;
+  font-weight: 700;
+}
+
 .greeting-image {
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
-  width: 400px;
+  width: 500px;
   background-color: grey;
+  padding: 100px;
 }
 
 .information-section {
